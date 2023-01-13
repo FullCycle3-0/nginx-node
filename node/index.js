@@ -59,6 +59,6 @@ insertPeopleInDb(mysql, dbConfig)
                     console.log(err);
             });
     })
-    .catch((errr) => {
+    .catch((err) => {
         console.log(err);
     });
